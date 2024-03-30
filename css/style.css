@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+}
+
+#menu {}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#game-menu {
+  align-self: flex-start;
+}
+
+#grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  aspect-ratio: 1 / 1;
+}
+
+.shade-0 {
+  background-color: #FFF;
+}
+
+.shade-1 {
+  background-color: #e2e2e2;
+}
+
+.shade-2 {
+  background-color: #bebebe;
+}
+
+.shade-3 {
+  background-color: #a0a0a0;
+}
+
+.shade-4 {
+  background-color: #888;
+}
+
+.shade-5 {
+  background-color: #666;
+}
+
+.shade-6 {
+  background-color: #444;
+}
+
+.shade-7 {
+  background-color: #333;
+}
+
+.shade-8 {
+  background-color: #151515;
+}
+
+.shade-9 {
+  background-color: #000;
+}
