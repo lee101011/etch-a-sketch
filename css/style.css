@@ -4,6 +4,17 @@ body {
   margin: 0;
 }
 
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 #container {
   display: flex;
   height: 100%;
